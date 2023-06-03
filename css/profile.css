@@ -121,7 +121,7 @@
         padding: 20px;
         gap: 10px;
 
-
+        width: 0%;
 
         /* Inside auto layout */
 
@@ -340,10 +340,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    .post_text {
-        width: 50%;
     }
 
     .friends {
@@ -566,8 +562,7 @@
     }
 
     .post-image {
-        width: 849px;
-        height: 341px;
+        width: 100%;
 
         border-radius: 20px;
     }
@@ -684,6 +679,232 @@
         flex-grow: 1;
     }
 
+    .profile-top {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+
+        width: 100%;
+
+        /* CSK - #0084FF/50
+        
+        CSK - #0084FF/50
+        */
+        background: var(--white-blue);
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .profile-top-img {
+        width: 100px;
+        height: 100px;
+
+        background: url(RobloxScreenShot20230518_172811679.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 61px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .profile-top-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4px 5px;
+        gap: 10px;
+        width: 50%;
+
+        /* CSK - #0084FF/100
+        
+        CSK - #0084FF/100
+        */
+        background: #CCE6FF;
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .description-and-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 13px;
+
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 13px;
+        height: 100%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .buttons-profile {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+        height: 30px;
+        padding: 0px;
+        gap: 10px;
+        width: 100%;
+        /* border: none; */
+        background: var(--not-white-blue);
+        border-radius: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .change-profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        height: 100%;
+        padding: 5px;
+        width: 7%;
+        background: var(--button-background);
+        border-radius: 20px;
+        cursor: pointer;
+        /* Inside auto layout */
+        color: #F2F2F2;
+        font-weight: 600;
+        border: 0.5px solid #000000;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .change-profile:hover {
+        background: var(--bright-blue);
+    }
+
+    .change-profile:active {
+        background-color: var(--blackier-blue);
+    }
+
+    .profile-bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+
+        width: 100%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .friends-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+
+        /* CSK - #0084FF/50
+        
+        CSK - #0084FF/50
+        */
+        background: var(--not-white-blue);
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .publications {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+
+        width: 100%;
+        height: 100%;
+
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    h4 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        color: #373737;
+    }
+
+    .post_text {
+        width: 100%;
+    }
+
     .modal-window {
         display: none;
         position: absolute;
@@ -749,7 +970,7 @@
         padding: 10px;
         gap: 10px;
 
-        height: 100%;
+        height: 829px;
 
 
         /* Inside auto layout */
@@ -802,7 +1023,20 @@
     }
 
     .left {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 10px;
+
+        width: 165px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
     }
 
     .middle {
@@ -812,8 +1046,8 @@
         align-items: center;
         padding: 20px;
         gap: 10px;
-        width: 100%;
 
+        width: 0%;
 
         /* Inside auto layout */
 
@@ -824,7 +1058,21 @@
     }
 
     .right {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+
+        width: 251px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
     }
 
     .text-button {
@@ -897,9 +1145,9 @@
         align-items: center;
         padding: 0px;
         gap: 5px;
-        /* 
+
         width: 105px;
-        height: 50px; */
+        height: 50px;
 
 
         /* Inside auto layout */
@@ -1007,10 +1255,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    .post_text {
-        width: 50%;
     }
 
     .friends {
@@ -1122,7 +1366,7 @@
         padding: 10px;
         gap: 10px;
 
-        width: 100%;
+        width: 871px;
         height: 80px;
 
         /* CSK - #0084FF/50
@@ -1178,7 +1422,8 @@
     .post {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
         padding: 10px;
         gap: 10px;
 
@@ -1215,25 +1460,24 @@
 
     .post_content {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
         padding: 0px 10px;
         gap: 10px;
 
-        width: 100%;
+        width: 839px;
+        height: 92px;
 
 
         /* Inside auto layout */
 
         flex: none;
         order: 1;
-        align-self: stretch;
         flex-grow: 0;
     }
 
     .post-image {
-        width: 849px;
-        height: 341px;
+        width: 100%;
 
         border-radius: 20px;
     }
@@ -1350,6 +1594,236 @@
         flex-grow: 1;
     }
 
+    .profile-top {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+
+        width: 100%;
+
+        /* CSK - #0084FF/50
+        
+        CSK - #0084FF/50
+        */
+        background: var(--white-blue);
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .profile-top-img {
+        width: 100px;
+        height: 100px;
+
+        background: url(RobloxScreenShot20230518_172811679.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 61px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .profile-top-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4px 5px;
+        gap: 10px;
+        width: 50%;
+
+        /* CSK - #0084FF/100
+        
+        CSK - #0084FF/100
+        */
+        background: #CCE6FF;
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .description-and-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 13px;
+
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 13px;
+        height: 100%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .buttons-profile {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+        height: 30px;
+        padding: 0px;
+        gap: 10px;
+        width: 100%;
+        /* border: none; */
+        background: var(--not-white-blue);
+        border-radius: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .change-profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        height: 100%;
+        padding: 5px;
+        width: 7%;
+        background: var(--button-background);
+        border-radius: 20px;
+        cursor: pointer;
+        /* Inside auto layout */
+        color: #F2F2F2;
+        font-weight: 600;
+        border: 0.5px solid #000000;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .change-profile:hover {
+        background: var(--bright-blue);
+    }
+
+    .change-profile:active {
+        background-color: var(--blackier-blue);
+    }
+
+    .profile-bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+
+        width: 100%;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .friends-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+
+        /* CSK - #0084FF/50
+        
+        CSK - #0084FF/50
+        */
+        background: var(--not-white-blue);
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .publications {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+
+        width: 100%;
+        height: 100%;
+
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    h4 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        color: #373737;
+    }
+
+    .post_text {
+        width: 100%;
+    }
+
+    .buttons-header {
+        display: none;
+    }
+
     .mobile-button {
         display: block;
         width: 50px;
@@ -1391,6 +1865,7 @@
         gap: 15px;
         width: 88%;
         height: 50%;
+        position: absolute;
         transition: all 600ms;
         background: radial-gradient(50% 50% at 50% 50%, #66B5FF 0%, #96CCFF 0.01%, #66B5FF 100%);
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -1420,13 +1895,5 @@
 
     a {
         text-decoration: none;
-    }
-
-    .post-img-text {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        gap: 10px;
     }
 }

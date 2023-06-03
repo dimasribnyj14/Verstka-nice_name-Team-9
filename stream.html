@@ -13,49 +13,51 @@
     <header>
         <img class='logo' src="img/icon.svg" alt="#">
         <div class="search">
-            <img class="search-button" src="img/search.svg" alt="#">
+            <a href="search.html"><img class="search-button" src="img/search.svg" alt="#"></a>
             <input class='search-text' type="text" placeholder="Пошук">
         </div>
         <div class="other-buttons">
             <img class="buttons-header" fill="currentColor" src="img/settings.svg" alt="#">
-            <img class="avatar" style="cursor: pointer;" src="img/myavatar.png" alt="#">
+            <a href="profile.html"><img class="avatar avatar-button" style="cursor: pointer;" src="img/myavatar.png"
+                    alt="#"></a>
+            <img class="mobile-button" fill="currentColor" src="img/more-buttons.svg" alt="#">
         </div>
 
     </header>
     <div class="main">
         <div class="left">
             <div class="text-div-button one">
-                <a class="text-button main-button">Головна</a>
+                <a class="text-button main-button" href="main.html">Головна</a>
             </div>
             <div class="text-div-button two">
-                <a class="text-button my-profile">Профіль</a>
+                <a class="text-button my-profile" href="profile.html">Профіль</a>
             </div>
             <div class="text-div-button three">
-                <a class="text-button">Новини</a>
+                <a class="text-button" href="#">Новини</a>
             </div>
             <div class="text-div-button four">
-                <a class="text-button">Нотатки</a>
+                <a class="text-button" href="#">Нотатки</a>
             </div>
             <div class="text-div-button five">
-                <a class="text-button">Пости</a>
+                <a class="text-button" href="#">Пости</a>
             </div>
             <div class="text-div-button six">
-                <a class="text-button messages-button">Повідомлення</a>
+                <a class="text-button messages-button" href="messages.html">Повідомлення</a>
             </div>
             <div class="text-div-button seven">
-                <a class="text-button">Друзі</a>
+                <a class="text-button" href="#">Друзі</a>
             </div>
             <div class="text-div-button eight">
-                <a class="text-button">Группи</a>
+                <a class="text-button" href="#">Группи</a>
             </div>
             <div class="text-div-button nine">
-                <a class="text-button streams">Трансляції</a>
+                <a class="text-button streams" href="streams.html">Трансляції</a>
             </div>
             <div class="text-div-button ten">
-                <a class="text-button">Сповіщення</a>
+                <a class="text-button" href="#">Сповіщення</a>
             </div>
             <div class="text-div-button eleven">
-                <a class="text-button">SocialRoom Play</a>
+                <a class="text-button" href="#">SocialRoom Play</a>
             </div>
         </div>
 
@@ -141,9 +143,104 @@
                     <input class='input' type="text" placeholder="Написати повідомлення...">
                     <img class="send-icon" src="img/send.svg" alt="#">
                 </div>
-
             </div>
-            <script src="js/messages.js"></script>
+        </div>
+
+        <div class="close-modal"></div>
+        <div class="modal-window" id="modal-window">
+            <div class="modal">
+                <div class="text-div-button one">
+                    <a class="text-button main-button" style='text-align: center;' href="main.html">Головна</a>
+                </div>
+                <div class="text-div-button two">
+                    <a class="text-button my-profile" style='text-align: center;' href="profile.html">Профіль</a>
+                </div>
+                <div class="text-div-button three">
+                    <a class="text-button" href="#" style='text-align: center;'>Новини</a>
+                </div>
+                <div class="text-div-button four">
+                    <a class="text-button" href="#" style='text-align: center;'>Нотатки</a>
+                </div>
+                <div class="text-div-button five">
+                    <a class="text-button" href="#" style='text-align: center;'>Пости</a>
+                </div>
+                <div class="text-div-button six">
+                    <a class="text-button messages-button" href="messages.html"
+                        style='text-align: center;'>Повідомлення</a>
+                </div>
+                <div class="text-div-button seven">
+                    <a class="text-button" href="#" style='text-align: center;'>Друзі</a>
+                </div>
+                <div class="text-div-button eight">
+                    <a class="text-button" href="#" style='text-align: center;'>Группи</a>
+                </div>
+                <div class="text-div-button nine">
+                    <a class="text-button streams" href="streams.html" style='text-align: center;'>Трансляції</a>
+                </div>
+                <div class="text-div-button ten">
+                    <a class="text-button" href="#" style='text-align: center;'>Сповіщення</a>
+                </div>
+                <div class="text-div-button eleven">
+                    <a class="text-button" href="#" style='text-align: center;'>SocialRoom Play</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="close-modal-chat"></div>
+        <div class="modal-window-chat" id="modal-window">
+            <div class="modal-chat">
+                <h1>Чат трансляції</h1>
+                <div class="chat">
+                    <p><strong>dotabod: </strong>Storm Spirit потерял серию из 3 убийств!</p>
+                    <p><strong>rrgokksa: </strong>П.п.п.п.п.п.п.п.п.п.п</p>
+                    <p><strong>art_sad_02: </strong>Че за лютый отхил</p>
+                    <p><strong>yondafg:
+                            👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲👩🏿‍🦲</strong>
+                    </p>
+                    <p><strong>mihan987: </strong>Привет а де минёр?)</p>
+                    <p><strong>art_sad_02: </strong>Ели в 4 тела одного убили</p>
+                    <p><strong>gosh <strong style="color: #6640FF;">(адмін)</strong>: </strong>Хто ображатиме
+                        родичів, тому
+                        БАН
+                        назавжди.</p>
+                    <p><strong>DiGiTi_: </strong>Магнус красава</p>
+                    <p><strong>ShinigamichiHP: </strong>фига сколько там урона</p>
+                    <div class="chat-message">
+                        <p><strong>ioredgf </strong>був <strong style="color: #AA0000;">заблокований</strong> за
+                            образа
+                            родичів. Бан на 7 днів</p>
+                    </div>
+                    <div class="chat-message">
+                        <p><strong>jojorefference21 </strong>був <strong style="color: #AA0000;">заблокований</strong>
+                            за
+                            спам реклами. Бан на 3 днi</p>
+                    </div>
+                    <p><strong>feskin88: </strong>подскажите к какому турниру он тренируется ?</p>
+                    <p><strong>denMail12 (<strong style="color: #FF5C00">@feskin88</strong>): </strong>к турнире
+                        Necompras
+                        Dota2 2023</p>
+                    <p><strong>Orange_17: </strong>Рейд босса убили</p>
+                    <p><strong>dotabod: </strong>Storm Spirit потерял серию из 3 убийств!</p>
+                    <p><strong>oneadg (<strong style="color: #FF5C00">@gosh</strong>): </strong>дай админку</p>
+                    <p><strong>gosh <strong style="color: #6640FF;">(адмін)</strong> (<strong
+                                style="color: #FF5C00">@oneadge</strong>):</strong> бан хочешь?)</p>
+                    <div class="chat-message">
+                        <p><strong>grgegerger </strong>був <strong style="color: #AA0000;">заблокований</strong> за
+                            спам
+                            реклами. Бан на 3 днi</p>
+                    </div>
+                    <p><strong>TheKar2neR:</strong>Ребят, а что за миникарта такая интересная?</p>
+                    <p><strong>DiGiTi:</strong>А что не затычка? Не катит чтоль, вроде норм должно быть</p>
+                    <p><strong>TheKar2neR:</strong>я здесь напишу Lorem Ipsum</p>
+                    <div class="chat-input">
+                        <input class='input' type="text" placeholder="Написати повідомлення...">
+                        <img class="send-icon" src="img/send.svg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/base.js"></script>
+
 </body>
 
 </html>

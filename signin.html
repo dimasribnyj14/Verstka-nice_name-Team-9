@@ -13,50 +13,50 @@
     <header>
         <img class='logo' src="img/icon.svg" alt="#">
         <div class="search">
-            <img class="search-button" src="img/search.svg" alt="#">
+            <a href="search.html"><img class="search-button" src="img/search.svg" alt="#"></a>
             <input type="text" class="search-text" placeholder="Пошук">
         </div>
         <div class="other-buttons">
             <img class="buttons-header" src="img/settings.svg" alt="#">
             <img class="buttons-header" src="img/signin.svg" alt="#">
+            <img class="mobile-button" fill="currentColor" src="img/more-buttons.svg" alt="#">
         </div>
 
-    </header>
     </header>
     <div class="main">
         <div class="left">
             <div class="text-div-button one">
-                <a class="text-button main-button">Головна</a>
+                <a class="text-button main-button" href="main.html">Головна</a>
             </div>
             <div class="text-div-button two">
-                <a class="text-button">Профіль</a>
+                <a class="text-button my-profile" href="profile.html">Профіль</a>
             </div>
             <div class="text-div-button three">
-                <a class="text-button">Новини</a>
+                <a class="text-button" href="#">Новини</a>
             </div>
             <div class="text-div-button four">
-                <a class="text-button">Нотатки</a>
+                <a class="text-button" href="#">Нотатки</a>
             </div>
             <div class="text-div-button five">
-                <a class="text-button">Пости</a>
+                <a class="text-button" href="#">Пости</a>
             </div>
             <div class="text-div-button six">
-                <a class="text-button">Повідомлення</a>
+                <a class="text-button messages-button" href="messages.html">Повідомлення</a>
             </div>
             <div class="text-div-button seven">
-                <a class="text-button">Друзі</a>
+                <a class="text-button" href="#">Друзі</a>
             </div>
             <div class="text-div-button eight">
-                <a class="text-button">Группи</a>
+                <a class="text-button" href="#">Группи</a>
             </div>
             <div class="text-div-button nine">
-                <a class="text-button streams">Трансляції</a>
+                <a class="text-button streams" href="streams.html">Трансляції</a>
             </div>
             <div class="text-div-button ten">
-                <a class="text-button">Сповіщення</a>
+                <a class="text-button" href="#">Сповіщення</a>
             </div>
             <div class="text-div-button eleven">
-                <a class="text-button">SocialRoom Play</a>
+                <a class="text-button" href="#">SocialRoom Play</a>
             </div>
         </div>
 
@@ -64,7 +64,7 @@
             <div class="signin">
                 <h2>Вхід</h2>
                 <input class='text-sign-in' type="text" placeholder="Логін">
-                <input class='text-sign-in' type="text" placeholder="Пароль">
+                <input class='text-sign-in' type="password" placeholder="Пароль">
                 <button class="button-sign-in buttons-for-sign">Вхід</button>
                 <div class="buttons-div-sign">
                     <button class="buttons-for-sign">Забули пароль?</button>
@@ -79,7 +79,49 @@
                 <h3>У вас ще немає друзів, щоб додати їх потрібно авторизуватися на сайті</h3>
             </div>
         </div>
-        <script src="js/signin.js"></script>
+    </div>
+
+
+
+    <div class="close-modal"></div>
+    <div class="modal-window" id="modal-window">
+        <div class="modal">
+            <div class="text-div-button one">
+                <a class="text-button main-button" style='text-align: center;' href="main.html">Головна</a>
+            </div>
+            <div class="text-div-button two">
+                <a class="text-button my-profile" style='text-align: center;' href="profile.html">Профіль</a>
+            </div>
+            <div class="text-div-button three">
+                <a class="text-button" href="#" style='text-align: center;'>Новини</a>
+            </div>
+            <div class="text-div-button four">
+                <a class="text-button" href="#" style='text-align: center;'>Нотатки</a>
+            </div>
+            <div class="text-div-button five">
+                <a class="text-button" href="#" style='text-align: center;'>Пости</a>
+            </div>
+            <div class="text-div-button six">
+                <a class="text-button messages-button" href="messages.html" style='text-align: center;'>Повідомлення</a>
+            </div>
+            <div class="text-div-button seven">
+                <a class="text-button" href="#" style='text-align: center;'>Друзі</a>
+            </div>
+            <div class="text-div-button eight">
+                <a class="text-button" href="#" style='text-align: center;'>Группи</a>
+            </div>
+            <div class="text-div-button nine">
+                <a class="text-button streams" href="streams.html" style='text-align: center;'>Трансляції</a>
+            </div>
+            <div class="text-div-button ten">
+                <a class="text-button" href="#" style='text-align: center;'>Сповіщення</a>
+            </div>
+            <div class="text-div-button eleven">
+                <a class="text-button" href="#" style='text-align: center;'>SocialRoom Play</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/base.js"></script>
 </body>
 
 </html>
