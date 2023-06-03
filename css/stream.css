@@ -933,6 +933,24 @@
         border-radius: 20px;
     }
 
+    .modal-window-chat {
+        display: none;
+        position: absolute;
+        z-index: 9000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 15px;
+        width: 88%;
+        height: 50%;
+        position: absolute;
+        transition: all 600ms;
+        background: radial-gradient(50% 50% at 50% 50%, #66B5FF 0%, #96CCFF 0.01%, #66B5FF 100%);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
     .close-modal {
         display: none;
         position: absolute;
@@ -948,6 +966,10 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .mobile-button {
+        display: none;
     }
 }
 
@@ -1033,7 +1055,7 @@
     }
 
     .left {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: flex-start;
         padding: 20px;
@@ -1069,7 +1091,7 @@
     }
 
     .right {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         padding: 20px;
@@ -1157,7 +1179,6 @@
         padding: 0px;
         gap: 5px;
 
-        width: 105px;
         height: 50px;
 
 
@@ -1745,7 +1766,7 @@
     }
 
     .chat {
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
@@ -1873,6 +1894,24 @@
     }
 
     .modal-window {
+        display: none;
+        position: absolute;
+        z-index: 9000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 15px;
+        width: 88%;
+        height: 50%;
+        position: absolute;
+        transition: all 600ms;
+        background: radial-gradient(50% 50% at 50% 50%, #66B5FF 0%, #96CCFF 0.01%, #66B5FF 100%);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
+    .modal-window-chat {
         display: none;
         position: absolute;
         z-index: 9000;

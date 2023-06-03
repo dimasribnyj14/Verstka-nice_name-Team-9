@@ -498,6 +498,10 @@ CSK - #0084FF/50
         flex-direction: column;
         justify-content: space-between;
     }
+
+    .mobile-button {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -672,21 +676,14 @@ CSK - #0084FF/50
 
 
     .other-buttons {
-        /* Auto layout */
-
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
         padding: 0px;
         gap: 5px;
-
-        width: 105px;
-        height: 50px;
-
-
-        /* Inside auto layout */
-
+        /* width: 105px; */
+        /* height: 50px; */
         flex: none;
         order: 2;
         flex-grow: 0;
@@ -876,11 +873,11 @@ CSK - #0084FF/50
 
     .streams {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
         width: 100%;
+        gap: 10px;
     }
 
     a {
@@ -898,7 +895,10 @@ CSK - #0084FF/50
     }
 
     .stream {
+        display: flex;
+        flex-direction: column;
         cursor: pointer;
+        width: 100%;
     }
 
     .mobile-button {

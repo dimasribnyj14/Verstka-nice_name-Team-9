@@ -96,6 +96,18 @@
         flex-grow: 0;
     }
 
+    .post-img-text {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        flex: none;
+        /* order: 1; */
+        align-self: stretch;
+        width: 60%;
+        flex-grow: 0;
+    }
+
     .left {
         display: flex;
         flex-direction: column;
@@ -217,6 +229,10 @@
         flex: none;
         order: 2;
         flex-grow: 0;
+    }
+
+    .mobile-button {
+        display: none;
     }
 
     .buttons-header {
@@ -343,7 +359,7 @@
     }
 
     .post_text {
-        width: 50%;
+        width: 80%;
     }
 
     .friends {
@@ -516,7 +532,7 @@
         padding: 10px;
         gap: 10px;
 
-
+        width: 61%;
 
         /* CSK - #0084FF/50
         
@@ -550,18 +566,12 @@
     .post_content {
         display: flex;
         flex-direction: row;
-        align-items: center;
         padding: 0px 10px;
         gap: 10px;
-
-        width: 839px;
-        height: 92px;
-
-
-        /* Inside auto layout */
-
+        width: 100%;
         flex: none;
         order: 1;
+        align-self: stretch;
         flex-grow: 0;
     }
 
@@ -1010,8 +1020,10 @@
     }
 
     .post_text {
-        width: 50%;
+        width: 100%;
     }
+
+
 
     .friends {
         display: flex;
@@ -1041,8 +1053,9 @@
         align-items: center;
         padding: 10px;
         gap: 3%;
-        width: 30%;
-        height: 10%;
+        width: 100%;
+        /* width: 30%;
+        height: 10%; */
 
         /* CSK - #0084FF/50
     
@@ -1182,7 +1195,7 @@
         padding: 10px;
         gap: 10px;
 
-
+        width: 100%;
 
         /* CSK - #0084FF/50
         
@@ -1216,15 +1229,9 @@
     .post_content {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         padding: 0px 10px;
         gap: 10px;
-
         width: 100%;
-
-
-        /* Inside auto layout */
-
         flex: none;
         order: 1;
         align-self: stretch;
@@ -1232,8 +1239,8 @@
     }
 
     .post-image {
-        width: 849px;
-        height: 341px;
+        width: 100%;
+        height: 100%;
 
         border-radius: 20px;
     }
@@ -1427,6 +1434,7 @@
         flex-direction: row;
         align-items: center;
         padding: 0px;
+
         gap: 10px;
     }
 }
