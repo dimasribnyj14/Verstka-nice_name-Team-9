@@ -35,6 +35,5 @@ buttonChatClose.addEventListener('click', function (event) { // создаем �
 
     coverdiv.remove();
     modalWindowChat.style.display = 'none';
-    modalWindowChat.style.opacity = 0;
     buttonChatClose.style.display = 'none'
 })
